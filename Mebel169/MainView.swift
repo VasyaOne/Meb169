@@ -29,7 +29,11 @@ struct MainView: View {
                 ScrollView(.horizontal, showsIndicators: false){
                     HStack{
                         ForEach(Model.couches) { item in
-                            CardView(item: item)
+                            NavigationLink {
+                                DetailCard(item: item)
+                            } label: {
+                                CardView(item: item)
+                            }
                         }
                     }
                     .padding()
@@ -43,7 +47,11 @@ struct MainView: View {
                 ScrollView(.horizontal, showsIndicators: false){
                     HStack{
                         ForEach(Model.bads) { item in
-                            CardView(item: item)
+                            NavigationLink {
+                                DetailCard(item: item)
+                            } label: {
+                                CardView(item: item)
+                            }
                         }
                     }
                     .padding()
@@ -54,6 +62,8 @@ struct MainView: View {
             
         }
     }
+    
+    
     @ViewBuilder
     
     private func header () -> some View {

@@ -42,7 +42,7 @@ struct CardView: View {
             }
             .padding()
             .background(Color.white)
-            .frame(width: 170, height: 230)
+            .frame(width: 270, height: 230)
             .cornerRadius(20)
         }
     }

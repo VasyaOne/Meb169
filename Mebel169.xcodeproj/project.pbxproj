@@ -14,6 +14,7 @@
 		FF69B0BA29295E190055749C /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF69B0B929295E190055749C /* Model.swift */; };
 		FF69B0BC29295E4D0055749C /* Cardview.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF69B0BB29295E4D0055749C /* Cardview.swift */; };
 		FF69B0BE2929606A0055749C /* DetailCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF69B0BD2929606A0055749C /* DetailCard.swift */; };
+		FFBB1DE6292D441700D814CA /* CardViewBlanck.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBB1DE5292D441700D814CA /* CardViewBlanck.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		FF69B0B929295E190055749C /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		FF69B0BB29295E4D0055749C /* Cardview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cardview.swift; sourceTree = "<group>"; };
 		FF69B0BD2929606A0055749C /* DetailCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCard.swift; sourceTree = "<group>"; };
+		FFBB1DE5292D441700D814CA /* CardViewBlanck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewBlanck.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				FF69B0B729295CBC0055749C /* MainView.swift */,
 				FF69B0B929295E190055749C /* Model.swift */,
 				FF69B0BB29295E4D0055749C /* Cardview.swift */,
+				FFBB1DE5292D441700D814CA /* CardViewBlanck.swift */,
 				FF69B0BD2929606A0055749C /* DetailCard.swift */,
 				FF69B0AD29295BC70055749C /* Assets.xcassets */,
 				FF69B0AF29295BC70055749C /* Preview Content */,
@@ -151,6 +154,7 @@
 				FF69B0AA29295BC60055749C /* Mebel169App.swift in Sources */,
 				FF69B0BC29295E4D0055749C /* Cardview.swift in Sources */,
 				FF69B0B829295CBC0055749C /* MainView.swift in Sources */,
+				FFBB1DE6292D441700D814CA /* CardViewBlanck.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
